@@ -103,7 +103,7 @@ function formulaire() {
 					// Puis renvoi vers la page confirm
 					localStorage.setItem('numero', JSON.stringify(commande));
 					localStorage.removeItem('objet');
-					window.location.href = '../../view/confirm.html';
+					window.location.href = '../../front-end/view/confirm.html';
 				})
 				.catch(function (err) {
 					// Sinon renvoie une erreur
