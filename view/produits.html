@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+
+		<link
+			rel="preload"
+			href="../public/style/sass_modules/output.css"
+			as="style"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="../public/style/sass_modules/output.css"
+		/>
+
+		<!-- Font Awesome SVG https://fontawesome.com/v4.7.0/  -->
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+			integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
+		<header>
+			<div class="header">
+				<a href="../index.html"
+					><img class="header_logo" alt="logo" src="../public/images/logo.png"
+				/></a>
+				<nav>
+					<ul>
+						<li>
+							<a href="../index.html"><i class="fas fa-home"></i>Accueil</a>
+						</li>
+						<li>
+							<a href="../view/panier.html"
+								><i class="fas fa-shopping-cart"></i>Panier</a
+							>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main id="mainProduit">
+			<h1>Produit</h1>
+			<div>
+				<figure>
+					<img src="" alt="" class="imgProduit" />
+					<figcaption>
+						<h2 class="name"></h2>
+						<p class="description"></p>
+						<div class="select"><select class="modele"></select></div>
+						<span></span>
+						<input type="submit" value="Acheter" />
+					</figcaption>
+				</figure>
+			</div>
+		</main>
+		<footer>
+			<div class="footer">
+				<div class="footer_block">
+					<h6>Besoins d'aide ?</h6>
+					<ul>
+						<li>Contact</li>
+						<li>Suivre ma commande</li>
+					</ul>
+				</div>
+
+				<div class="footer_block">
+					<h6>À propos ?</h6>
+					<ul>
+						<li>Qui sommes nous</li>
+						<li>Nos services</li>
+						<li>Presse</li>
+					</ul>
+				</div>
+
+				<div class="footer_block">
+					<h6>Informations légales</h6>
+					<ul>
+						<li>Conditions de Vente</li>
+						<li>Mentions légales</li>
+						<li>Données personnelles</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<script src="../public/javascript/produit.js"></script>
+	</body>
+</html>
