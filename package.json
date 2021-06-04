@@ -1,21 +1,16 @@
 {
-  "name": "reset",
+  "name": "front-end",
   "version": "1.0.0",
-  "description": "projet 5 OC",
+  "description": "Projet 5 OC",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch ./public/style/sass_modules/input.scss ./public/style/sass_modules/output.css"
   },
-  "keywords": [
-    "^C"
-  ],
-  "author": "Thibault Guerard",
+  "author": "Guerard Thibault",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "C:\\Users\\ReSeT\\Desktop\\GuerardThibault_5_24052021"
-  },
-  "devDependencies": {
-    "webpack-cli": "^4.7.0"
+  "dependencies": {
+    "sass": "^1.32.11",
+    "xmlhttprequest": "^1.8.0"
   }
 }
+
