@@ -1,0 +1,21 @@
+{
+  "name": "reset",
+  "version": "1.0.0",
+  "description": "projet 5 OC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "^C"
+  ],
+  "author": "Thibault Guerard",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "C:\\Users\\ReSeT\\Desktop\\GuerardThibault_5_24052021"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.7.0"
+  }
+}
