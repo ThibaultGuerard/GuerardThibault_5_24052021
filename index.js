@@ -52,7 +52,7 @@ function displayArticles(article) {
 	// LIEN
 	const lien = document.createElement('a');
 	container.appendChild(lien);
-	lien.href = './view/produits.html?id=' + article._id;
+	lien.href = 'front-end/view/produits.html?id=' + article._id;
 	lien.classList.add('lienProduit');
 
 	// FIGURE
