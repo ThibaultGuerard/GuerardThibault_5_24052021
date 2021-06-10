@@ -1,0 +1,454 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  box-sizing: border-box;
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../police/Roboto-Regular.ttf") format("truetype");
+}
+html {
+  font-size: 16px;
+  font-family: "Roboto", serif, sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc( 					16px + 8 * 						((100vw - 320px) / 880) 				);
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 24px;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f3e9f1;
+}
+.header_logo {
+  margin-left: 2%;
+  width: 20%;
+}
+.header nav {
+  margin-right: 12%;
+}
+.header ul {
+  margin-top: 1%;
+  display: flex;
+  margin-right: 6%;
+}
+.header li {
+  list-style-type: none;
+  margin-right: 20%;
+}
+.header a {
+  display: flex;
+}
+.header i {
+  margin-right: 10%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f3e9f1;
+}
+.footer_block {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2%;
+}
+.footer h6 {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-weight: bold;
+}
+.footer li {
+  margin-top: 5%;
+}
+
+#mainProduit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#mainProduit figcaption {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+#mainProduit .select {
+  width: 25%;
+  margin: auto;
+}
+#mainProduit .modele {
+  width: 100%;
+}
+#mainProduit .quantity {
+  margin: auto;
+  width: 25%;
+}
+#mainProduit h1 {
+  background-color: #f3e9f1;
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+  border-radius: 1rem;
+}
+#mainProduit div {
+  border-radius: 10%;
+  overflow: hidden;
+  width: 35%;
+  margin: 1%;
+  background-color: #f3e9f1;
+  font-size: 0.5rem;
+}
+#mainProduit img.imgProduit {
+  width: 100%;
+}
+#mainProduit p,
+#mainProduit span,
+#mainProduit h2 {
+  text-align: center;
+  padding: 7%;
+}
+#mainProduit h2 {
+  padding-bottom: 0%;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+#mainProduit span {
+  display: flex;
+  width: 88%;
+  justify-content: center;
+  font-weight: bold;
+}
+#mainProduit input {
+  background-color: #f3e9f1;
+  width: 50%;
+}
+
+#mainIndex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#mainIndex .select {
+  margin: auto;
+}
+#mainIndex h1 {
+  background-color: #f3e9f1;
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+  border-radius: 1rem;
+}
+#mainIndex div {
+  border-radius: 10%;
+  overflow: hidden;
+  width: 35%;
+  margin: 1%;
+  background-color: #f3e9f1;
+  font-size: 0.5rem;
+}
+#mainIndex img.imgProduit {
+  width: 100%;
+}
+#mainIndex p,
+#mainIndex span,
+#mainIndex h2 {
+  text-align: center;
+  padding: 7%;
+}
+#mainIndex h2 {
+  padding-bottom: 0%;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+#mainIndex span {
+  display: flex;
+  width: 88%;
+  justify-content: center;
+  font-weight: bold;
+}
+#mainIndex input {
+  background-color: #f3e9f1;
+  width: 100%;
+}
+
+.confirm {
+  background-color: #f3e9f1;
+  margin: 2%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#mainProduit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#mainProduit figcaption {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+#mainProduit .select {
+  width: 25%;
+  margin: auto;
+}
+#mainProduit .modele {
+  width: 100%;
+}
+#mainProduit .quantity {
+  margin: auto;
+  width: 25%;
+}
+#mainProduit h1 {
+  background-color: #f3e9f1;
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+  border-radius: 1rem;
+}
+#mainProduit div {
+  border-radius: 10%;
+  overflow: hidden;
+  width: 35%;
+  margin: 1%;
+  background-color: #f3e9f1;
+  font-size: 0.5rem;
+}
+#mainProduit img.imgProduit {
+  width: 100%;
+}
+#mainProduit p,
+#mainProduit span,
+#mainProduit h2 {
+  text-align: center;
+  padding: 7%;
+}
+#mainProduit h2 {
+  padding-bottom: 0%;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+#mainProduit span {
+  display: flex;
+  width: 88%;
+  justify-content: center;
+  font-weight: bold;
+}
+#mainProduit input {
+  background-color: #f3e9f1;
+  width: 50%;
+}
+
+.mainPanier {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.mainPanier_formulaire {
+  background-color: #f3e9f1;
+  padding: 5%;
+  margin: 1%;
+  border-radius: 1rem;
+}
+.mainPanier #affichePanier {
+  background-color: #f3e9f1;
+  margin: 1%;
+  border-radius: 1rem;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.mainPanier table {
+  margin: 4%;
+  width: 90%;
+}
+.mainPanier .description {
+  display: block;
+  width: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.mainPanier .miniature {
+  width: 10%;
+}
+.mainPanier input#commande {
+  padding: 6%;
+  margin: 5%;
+  background-color: black;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+/*# sourceMappingURL=output.css.map */

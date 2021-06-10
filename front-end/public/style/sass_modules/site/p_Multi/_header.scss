@@ -1,0 +1,33 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #f3e9f1;
+
+	&_logo {
+		margin-left: 2%;
+		width: 20%;
+	}
+	nav {
+		margin-right: 12%;
+	}
+
+	ul {
+		margin-top: 1%;
+		display: flex;
+		margin-right: 6%;
+	}
+
+	li {
+		list-style-type: none;
+		margin-right: 20%;
+	}
+
+	a {
+		display: flex;
+	}
+
+	i {
+		margin-right: 10%;
+	}
+}

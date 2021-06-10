@@ -1,0 +1,21 @@
+.footer {
+	display: flex;
+	justify-content: space-around;
+
+	background-color: #f3e9f1;
+
+	&_block {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 2%;
+	}
+
+	h6 {
+		margin-top: 10%;
+		margin-bottom: 5%;
+		font-weight: bold;
+	}
+	li {
+		margin-top: 5%;
+	}
+}
