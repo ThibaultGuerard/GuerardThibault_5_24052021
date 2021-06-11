@@ -1,7 +1,7 @@
 //TODO INDEX Affichage
 // Attend réponse API et affiche les articles
 
-mainJS();
+window.onload=mainJS();
 async function mainJS() {
 	// ASYNC permet de d'utiliser await qui va attendre la reponse avent de s'executer
 	// Créer une variable avec les données produite part l'API et AWAIT permet d'en attendre sa réponse
