@@ -435,7 +435,7 @@ html {
 }
 .mainPanier .description {
   display: block;
-  width: 100px;
+  width: 150px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
